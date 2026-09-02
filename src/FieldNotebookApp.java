@@ -24,5 +24,24 @@ public class FieldNotebookApp {
                 .collect(Collectors.toList()));
 
     }
+        //C1
+        //System.out.println("----");
+        //System.out.printf("Total organisms: %d%n", NotebookQueries.totalOrganisms(nd));
+
+        //C2
+        //System.out.printf("Species seen: %s%n", NotebookQueries.speciesSeen(nb));
+
+        //C3
+        //System.out.printf("Species Over: %s%n", NotebookQueries.sightingsOver(nb,2));
+
+        //C4
+        //System.out.printf("Busiest species: %s%n", NotebookQueries.busiestSpecies(nb));
+
+        //C5
+        //System.out.printf("Busiest species: %s%n", NotebookQueries.sightingsListAsString(nb));
+
+        //C6
+        //System.out.printf("Group by Month: %s%n", NotebookQueries.groupByMonth(nb));
+
 
 }

@@ -6,6 +6,11 @@ import java.util.stream.Collectors;
 
 public class FieldNotebook {
     private String owner;
+
+    public List<Sighting> getSightings() {
+        return sightings;
+    }
+
     private List<Sighting> sightings;
 
     public FieldNotebook(String owner){
@@ -47,6 +52,8 @@ public class FieldNotebook {
             System.out.printf(" " + s.describe());
         }
     }
+
+
 }
 
 
