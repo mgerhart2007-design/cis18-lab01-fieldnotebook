@@ -21,7 +21,11 @@ stops being a slogan.
 We should have programmed to the Descriable interface for all things in FieldNotebook. By not doing this we have coupled FieldNotebook to sightings, and made it difficult to add the WeatherNote as another Observable. 
 
 5. Where It is
+Class: FieldNotebook
+Method: report()
 
 6. What Breaks 
+What breaks in the program is that the FieldNotebook is only concerned with how information is displayed and when the code get more complex we have to modify FieldNotebook whenever a new output format is needed. 
 7. Your Guess
+How this could be fixed was if could add a new output format without changing the notebook itself. 
 
